@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="background">
+        <img id="bg-img" src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+         <div class="logo-container">
+            <div class="logo">
+                <h2>ODIN</h2>
+                <img id="odin-logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
+            </div>
+         </div>
+        </div>
+        <div class="form-container">
+           <section>
+            <div class="paragraph">
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                </p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p class="para">You <em>know</em> you want to.</p>
+            </div>
+           </section>
+           <section>
+            <div class="info">
+                <p>Let's do this!</p>
+                <form action="#" method="get" class="form">
+                    <div class="row one">
+                        <div class="input firstName">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName" autocomplete="firstName" pattern="[a-zA-Z]+" placeholder="Adetunji" min="1" max="15" required>
+                        </div>
+                        <div class="input lastName">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName" autocomplete="lastName" placeholder="Mary" min="1" max="15" required>
+                        </div>    
+                    </div>
+                    <div class="row two">
+                        <div class="input email">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="mail" name="email" autocomplete="email" placeholder="odin@example.com" min="1" max="30" required>
+                        </div>
+                        <div class="input phoneNumber">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="phoneNumber" placeholder="+234 70 0000 0000" min="1" max="20" required>
+                        </div>    
+                    </div>
+                    <div class="row three">
+                        <div class="input password">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="user-password" name="password" autocomplete="password" placeholder="jd7@dj43aa" min="1" max="15" required>
+                        </div>
+                        <div class="input password">
+                            <label for="password">COMFIRM PASSWORD</label>
+                            <input type="password" id="user-password" name="password" autocomplete="password" placeholder="jd7@dj43aa" min="1" max="15" required>
+                        </div> 
+                    </div>
+                    <div class="submit">
+                        <button id="create" type="submit">Create Account</button>
+                        <p>Already have an account? <button id="login">Log in</button></p>
+                    </div>
+                </form>
+            </div>
+           </section>
+        </div>
+    </div>
+</body>
+</html>
